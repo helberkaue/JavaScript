@@ -11,8 +11,7 @@ let confirmacao = confirm(`Seus Dados:
     Altura: ${altura} m
     Deseja continuar?`);
 
-if (confirmacao) {
-    alert(`${nome}, seu IMC é ${imc}`);
-} else {
-    alert("Você saiu do programa.");
-}
+alert(confirmacao? `${nome}, seu IMC é ${imc}`:"Você saiu do programa.");
+
+
+

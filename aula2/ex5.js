@@ -1,6 +1,5 @@
 let conta =  confirm("Você deseja excluir sua conta? Clique em OK");
-if(conta){
-    alert("Conta Excluida com sucesso!");
-}else{
-    alert("Ação cancelada pelo usuário!");
-}
+
+alert(conta? "Conta Excluida com sucesso!":"Ação cancelada pelo usuário!" )
+
+
